@@ -644,6 +644,19 @@ body:hover::-webkit-scrollbar-thumb { background-color: var(--surface-variant); 
 
 }
 
+.album-container {
+  position: relative;
+}
+
+.album-name {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5); /* Background with 50% transparency */
+  text-align: center;
+  font-weight: bold;
+}
 
 
 

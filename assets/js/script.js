@@ -564,7 +564,7 @@ const musicData = [
   {
       "backgroundImage": "./assets/images/One-Direction.jpg",
       "title": "Drag-Me-Down",
-      "album": "Songle",
+      "album": "Single",
       "year": 2010,
       "artist": "One Direction",
       "musicPath": "./assets/music/Drag-Me-Down.mp3"
@@ -572,7 +572,7 @@ const musicData = [
   {
       "backgroundImage": "./assets/images/One-Direction.jpg",
       "title": "Perfect-One-Direction",
-      "album": "Songle",
+      "album": "Single",
       "year": 2010,
       "artist": "One Direction",
       "musicPath": "./assets/music/Perfect-One-Direction.mp3"
@@ -580,7 +580,7 @@ const musicData = [
   {
       "backgroundImage": "./assets/images/One-Direction.jpg",
       "title": "Live-While-We're-Young",
-      "album": "Songle",
+      "album": "Single",
       "year": 2010,
       "artist": "One Direction",
       "musicPath": "./assets/music/Live-While-We're-Young.mp3"
@@ -588,7 +588,7 @@ const musicData = [
   {
       "backgroundImage": "./assets/images/One-Direction.jpg",
       "title": "What-Makes-You-Beautiful",
-      "album": "Songle",
+      "album": "Single",
       "year": 2010,
       "artist": "One Direction",
       "musicPath": "./assets/music/What-Makes-You-Beautiful.mp3"
@@ -596,7 +596,7 @@ const musicData = [
   {
       "backgroundImage": "./assets/images/One-Direction.jpg",
       "title": "Steal-My-Girl",
-      "album": "Songle",
+      "album": "Single",
       "year": 2010,
       "artist": "One Direction",
       "musicPath": "./assets/music/Steal-My-Girl.mp3"
@@ -604,7 +604,7 @@ const musicData = [
   {
       "backgroundImage": "./assets/images/One-Direction.jpg",
       "title": "Night-Changes",
-      "album": "Songle",
+      "album": "Single",
       "year": 2010,
       "artist": "One Direction",
       "musicPath": "./assets/music/Night-Changes.mp3"
@@ -792,7 +792,63 @@ const musicData = [
       "year": 2008,
       "artist": "Unknown",
       "musicPath": "./assets/music/07 - Nidhare Kala - SenSongsMp3.co.mp3"
-  }
+  },
+  {
+        backgroundImage: "./assets/images/One-Direction.jpg",
+        title: "MadhurameMari MariMari Mari", 
+        album: "Arjun Reddy", 
+        year: 2017, 
+        artist: "Unknown", 
+        musicPath: "./assets/music/Madhurame - SenSongsMp3.Co.mp3",
+  },
+  {
+        backgroundImage: "./assets/images/One-Direction.jpg", 
+        title: "Telisiney Na NuvveyMari MariMari Mari", 
+        album: "Arjun Reddy", 
+        year: 2017, 
+        artist: "Unknown", 
+        musicPath: "./assets/music/Telisiney Na Nuvvey - SenSongsMp3.Co.mp3",
+  },
+  {
+        backgroundImage: "./assets/images/One-Direction.jpg", 
+        title: "Oopiri AaguthunnadeyMari MariMari Mari", 
+        album: "Arjun Reddy", 
+        year: 2017, 
+        artist: "Unknown", 
+        musicPath: "./assets/music/Oopiri Aaguthunnadey - SenSongsMp3.Co.mp3",
+  },
+  {
+        backgroundImage: "./assets/images/One-Direction.jpg", 
+        title: "GundelonaaMari MariMari Mari", 
+        album: "Arjun Reddy", 
+        year: 2017, 
+        artist: "Unknown", 
+        musicPath: "./assets/music/Gundelonaa - SenSongsMp3.Co.mp3",
+  },
+  {
+        backgroundImage: "./assets/images/One-Direction.jpg", 
+        title: "EmitemitemoMari MariMari Mari", 
+        album: "Arjun Reddy", 
+        year: 2017, 
+        artist: "Unknown", 
+        musicPath: "./assets/music/Emitemitemo - SenSongsMp3.Co.mp3",
+  },
+  {
+        backgroundImage: "./assets/images/One-Direction.jpg", 
+        title: "DhooramMari MariMari Mari", 
+        album: "Arjun Reddy", 
+        year: 2017, 
+        artist: "Unknown", 
+        musicPath: "./assets/music/Dhooram - SenSongsMp3.Co.mp3",
+  },
+  {
+        backgroundImage: "./assets/images/One-Direction.jpg", 
+        title: "Mari MariMari MariMari Mari", 
+        album: "Arjun Reddy", 
+        year: 2017, 
+        artist: "Unknown", 
+        musicPath: "./assets/music/Mari Mari - SenSongsMp3.Co.mp3",
+  },
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {
@@ -831,7 +887,7 @@ const playlist = document.querySelector("[data-music-list]");
 for (let i = 0, len = musicData.length; i < len; i++) {
   playlist.innerHTML += `
   <li>
-    <button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-toggler data-playlist-item="${i}">
+    <button class="music-item ${i === 0 ? "playing" : ""}" data-playlist-item="${i}">
       <img src="${musicData[i].backgroundImage}" width="800" height="800" alt="${musicData[i].album} Album Poster"
         class="img-cover">
         <div class="album-container">

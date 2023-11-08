@@ -849,6 +849,14 @@ const musicData = [
         artist: "Unknown", 
         musicPath: "./assets/music/Mari Mari - SenSongsMp3.Co.mp3",
   },
+  {
+    backgroundImage: "./assets/images/Louis-Tomlinson.webp", 
+    title: "Kill My Mind", 
+    album: "Arjun Reddy", 
+    year: 2017, 
+    artist: "Louis Tomlinson", 
+    musicPath: "./assets/music/Louis_Tomlinson_-_Kill_My_Mind.mp3",
+},
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

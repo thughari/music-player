@@ -794,7 +794,7 @@ const musicData = [
       "musicPath": "./assets/music/07 - Nidhare Kala - SenSongsMp3.co.mp3"
   },
   {
-        backgroundImage: "./assets/images/One-Direction.jpg",
+        backgroundImage: "./assets/images/ArjunReddy.jpg",
         title: "MadhurameMari MariMari Mari", 
         album: "Arjun Reddy", 
         year: 2017, 
@@ -802,7 +802,7 @@ const musicData = [
         musicPath: "./assets/music/Madhurame - SenSongsMp3.Co.mp3",
   },
   {
-        backgroundImage: "./assets/images/One-Direction.jpg", 
+        backgroundImage: "./assets/images/ArjunReddy.jpg", 
         title: "Telisiney Na NuvveyMari MariMari Mari", 
         album: "Arjun Reddy", 
         year: 2017, 
@@ -810,7 +810,7 @@ const musicData = [
         musicPath: "./assets/music/Telisiney Na Nuvvey - SenSongsMp3.Co.mp3",
   },
   {
-        backgroundImage: "./assets/images/One-Direction.jpg", 
+        backgroundImage: "./assets/images/ArjunReddy.jpg", 
         title: "Oopiri AaguthunnadeyMari MariMari Mari", 
         album: "Arjun Reddy", 
         year: 2017, 
@@ -818,7 +818,7 @@ const musicData = [
         musicPath: "./assets/music/Oopiri Aaguthunnadey - SenSongsMp3.Co.mp3",
   },
   {
-        backgroundImage: "./assets/images/One-Direction.jpg", 
+        backgroundImage: "./assets/images/ArjunReddy.jpg", 
         title: "GundelonaaMari MariMari Mari", 
         album: "Arjun Reddy", 
         year: 2017, 
@@ -826,7 +826,7 @@ const musicData = [
         musicPath: "./assets/music/Gundelonaa - SenSongsMp3.Co.mp3",
   },
   {
-        backgroundImage: "./assets/images/One-Direction.jpg", 
+        backgroundImage: "./assets/images/ArjunReddy.jpg", 
         title: "EmitemitemoMari MariMari Mari", 
         album: "Arjun Reddy", 
         year: 2017, 
@@ -834,7 +834,7 @@ const musicData = [
         musicPath: "./assets/music/Emitemitemo - SenSongsMp3.Co.mp3",
   },
   {
-        backgroundImage: "./assets/images/One-Direction.jpg", 
+        backgroundImage: "./assets/images/ArjunReddy.jpg", 
         title: "DhooramMari MariMari Mari", 
         album: "Arjun Reddy", 
         year: 2017, 
@@ -842,7 +842,7 @@ const musicData = [
         musicPath: "./assets/music/Dhooram - SenSongsMp3.Co.mp3",
   },
   {
-        backgroundImage: "./assets/images/One-Direction.jpg", 
+        backgroundImage: "./assets/images/ArjunReddy.jpg", 
         title: "Mari MariMari MariMari Mari", 
         album: "Arjun Reddy", 
         year: 2017, 
@@ -852,11 +852,59 @@ const musicData = [
   {
     backgroundImage: "./assets/images/Louis-Tomlinson.webp", 
     title: "Kill My Mind", 
-    album: "Arjun Reddy", 
+    album: "Single", 
     year: 2017, 
     artist: "Louis Tomlinson", 
     musicPath: "./assets/music/Louis_Tomlinson_-_Kill_My_Mind.mp3",
-},
+  },
+  {
+    backgroundImage: "./assets/images/Awaara.jpg", 
+    title: "Nee Yadalo Naaku", 
+    album: "Awaara", 
+    year: 2010, 
+    artist: "Unknown", 
+    musicPath: "./assets/music/Nee Yadalo Naaku-SenSongsMp3.Co.mp3",
+  },
+  {
+    backgroundImage: "./assets/images/Awaara.jpg", 
+    title: "Arere Vaanaa", 
+    album: "Awaara", 
+    year: 2010, 
+    artist: "Unknown", 
+    musicPath: "./assets/music/Arere Vaanaa-SenSongsMp3.Co.mp3",
+  },
+  {
+    backgroundImage: "./assets/images/Awaara.jpg", 
+    title: "Yedho Alajadi", 
+    album: "Awaara", 
+    year: 2010, 
+    artist: "Unknown", 
+    musicPath: "./assets/music/Yedho Alajadi - SenSongsMp3.Co.mp3",
+  },
+  {
+    backgroundImage: "./assets/images/Awaara.jpg", 
+    title: "Chuttesai Chuttesai", 
+    album: "Awaara", 
+    year: 2010, 
+    artist: "Unknown", 
+    musicPath: "./assets/music/Chuttesai Chuttesai-SenSongsMp3.Co.mp3",
+  },
+  {
+    backgroundImage: "./assets/images/Awaara.jpg", 
+    title: "Mandaara Poovalle", 
+    album: "Awaara", 
+    year: 2010, 
+    artist: "Unknown", 
+    musicPath: "./assets/music/Mandaara Poovalle-SenSongsMp3.Co.mp3",
+  },
+  {
+    backgroundImage: "./assets/images/Awaara.jpg", 
+    title: "Chiru Chiru Chiru", 
+    album: "Awaara", 
+    year: 2010, 
+    artist: "Unknown", 
+    musicPath: "./assets/music/Chiru Chiru Chiru-SenSongsMp3.Co.mp3",
+  },
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

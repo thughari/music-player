@@ -396,3 +396,88 @@ public class ListComparisonApplication implements CommandLineRunner {
 }
 
 
+
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.List;
+
+@SpringBootApplication
+public class ListComparisonApplication implements CommandLineRunner {
+
+    @Autowired
+    private QlikRolesRepository qlikRolesRepository;
+
+    public static void main(String[] args) {
+        SpringApplication.run(ListComparisonApplication.class, args);
+    }
+
+    @Override
+    public void run(String... args) {
+        List<QlikRoles> dbData = fetchDataFromDb();
+        List<String> apiData = fetchDataFromApi();
+
+        for (String newFunctionalAreaName : apiData) {
+            boolean existsInDb = dbData.stream()
+                    .anyMatch(role -> role.getFunctionalAreaName().equals(newFunctionalAreaName));
+
+            if (existsInDb) {
+                // Data with the same functional area name exists in DB
+                QlikRoles existingRole = findRoleByFunctionalAreaName(dbData, newFunctionalAreaName);
+                if (existingRole != null && existingRole.getIsActive().equals("N")) {
+                    // If isActive is "N" in DB, update it to "Y"
+                    updateDbRole(existingRole, "Y");
+                    System.out.println("Updating isActive to 'Y' in DB: " + newFunctionalAreaName);
+                }
+            } else {
+                // Data with the same functional area name doesn't exist in DB, insert new data
+                insertIntoDb(newFunctionalAreaName, "Y"); // Assuming default is "Y" for new entries
+                System.out.println("Inserting into DB: " + newFunctionalAreaName);
+            }
+        }
+    }
+
+    private List<QlikRoles> fetchDataFromDb() {
+        // Simulate fetching data from DB
+        // Replace this with your actual method to fetch data from the database
+        // For now, a dummy implementation is provided
+        return List.of(
+                new QlikRoles("FunctionalArea1", "Y"),
+                new QlikRoles("FunctionalArea2", "N"),
+                new QlikRoles("FunctionalArea3", "Y")
+        );
+    }
+
+    private void updateDbRole(QlikRoles role, String newIsActive) {
+        // Simulate updating data in the database
+        // Replace this with your actual method to update data in the database
+        role.setIsActive(newIsActive);
+    }
+
+    private void insertIntoDb(String functionalAreaName, String isActive) {
+        // Simulate inserting data into the database
+        // Replace this with your actual method to insert data into the database
+        QlikRoles newRole = new QlikRoles(functionalAreaName, isActive);
+        qlikRolesRepository.save(newRole);
+        System.out.println("Inserting into DB: " + functionalAreaName);
+    }
+
+    private QlikRoles findRoleByFunctionalAreaName(List<QlikRoles> dbData, String functionalAreaName) {
+        return dbData.stream()
+                .filter(role -> role.getFunctionalAreaName().equals(functionalAreaName))
+                .findFirst()
+                .orElse(null);
+    }
+
+    private List<String> fetchDataFromApi() {
+        // Simulate fetching data from API
+        return List.of("FunctionalArea1", "FunctionalArea2", "FunctionalArea3");
+    }
+}
+
+

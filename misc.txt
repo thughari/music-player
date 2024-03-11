@@ -77,3 +77,71 @@ public class ListComparisonExample {
         // You may want to use JDBC or an ORM framework for actual database interactions
     }
 }
+
+
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+@SpringBootApplication
+public class ListComparisonApplication implements CommandLineRunner {
+
+    @Autowired
+    private YourEntityRepository entityRepository;
+
+    public static void main(String[] args) {
+        SpringApplication.run(ListComparisonApplication.class, args);
+    }
+
+    @Override
+    public void run(String... args) {
+        List<YourData> apiData = fetchDataFromApi();
+        Set<YourEntity> dbData = new HashSet<>(fetchDataFromDb());
+
+        for (YourData newData : apiData) {
+            // Check if data with the same functional area name exists in DB
+            YourEntity existingEntity = dbData.stream()
+                    .filter(entity -> entity.getFunctionalAreaName().equals(newData.getFunctionalAreaName()))
+                    .findFirst().orElse(null);
+
+            if (existingEntity != null) {
+                // Data with the same functional area name exists in DB
+                if (existingEntity.getIsActive().equals("N")) {
+                    // If isActive is "N" in DB, update it to "Y"
+                    existingEntity.setIsActive("Y");
+                    entityRepository.save(existingEntity);
+                    System.out.println("Updating isActive to 'Y' in DB: " + newData);
+                }
+            } else {
+                // Data with the same functional area name doesn't exist in DB, insert new data
+                YourEntity newEntity = new YourEntity();
+                newEntity.setFunctionalAreaName(newData.getFunctionalAreaName());
+                newEntity.setIsActive("Y"); // Assuming default is "Y" for new entries
+                entityRepository.save(newEntity);
+                System.out.println("Inserting into DB: " + newData);
+            }
+        }
+    }
+
+    private List<YourData> fetchDataFromApi() {
+        // Simulate fetching data from API
+        return List.of(
+                new YourData("FunctionalArea1", "Y"),
+                new YourData("FunctionalArea2", "N"),
+                new YourData("FunctionalArea3", "Y")
+        );
+    }
+
+    private List<YourEntity> fetchDataFromDb() {
+        // Simulate fetching data from DB
+        return entityRepository.findAll();
+    }
+}

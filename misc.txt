@@ -145,3 +145,84 @@ public class ListComparisonApplication implements CommandLineRunner {
         return entityRepository.findAll();
     }
 }
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.List;
+import java.util.Map;
+
+@SpringBootApplication
+public class ListComparisonApplication implements CommandLineRunner {
+
+    @Autowired
+    private YourEntityRepository entityRepository;
+
+    public static void main(String[] args) {
+        SpringApplication.run(ListComparisonApplication.class, args);
+    }
+
+    @Override
+    public void run(String... args) {
+        List<Map<String, Object>> dbData = fetchDataFromDb();
+        List<YourData> apiData = fetchDataFromApi();
+
+        for (YourData newData : apiData) {
+            boolean existsInDb = dbData.stream()
+                    .anyMatch(row -> row.get("functionalAreaName").equals(newData.getFunctionalAreaName()));
+
+            if (existsInDb) {
+                // Data with the same functional area name exists in DB
+                Map<String, Object> existingRow = dbData.stream()
+                        .filter(row -> row.get("functionalAreaName").equals(newData.getFunctionalAreaName()))
+                        .findFirst().orElse(null);
+
+                if (existingRow != null && existingRow.get("isActive").equals("N")) {
+                    // If isActive is "N" in DB, update it to "Y"
+                    updateDbRow(existingRow, "Y");
+                    System.out.println("Updating isActive to 'Y' in DB: " + newData);
+                }
+            } else {
+                // Data with the same functional area name doesn't exist in DB, insert new data
+                insertIntoDb(newData.getFunctionalAreaName(), "Y"); // Assuming default is "Y" for new entries
+                System.out.println("Inserting into DB: " + newData);
+            }
+        }
+    }
+
+    private List<Map<String, Object>> fetchDataFromDb() {
+        // Simulate fetching data from DB
+        // Replace this with your actual method to fetch data from the database
+        // For now, a dummy implementation is provided
+        return List.of(
+                Map.of("functionalAreaName", "FunctionalArea1", "isActive", "Y"),
+                Map.of("functionalAreaName", "FunctionalArea2", "isActive", "N"),
+                Map.of("functionalAreaName", "FunctionalArea3", "isActive", "Y")
+        );
+    }
+
+    private void updateDbRow(Map<String, Object> row, String newIsActive) {
+        // Simulate updating data in the database
+        // Replace this with your actual method to update data in the database
+        row.put("isActive", newIsActive);
+    }
+
+    private void insertIntoDb(String functionalAreaName, String isActive) {
+        // Simulate inserting data into the database
+        // Replace this with your actual method to insert data into the database
+        System.out.println("Inserting into DB: " + functionalAreaName);
+    }
+
+    private List<YourData> fetchDataFromApi() {
+        // Simulate fetching data from API
+        return List.of(
+                new YourData("FunctionalArea1", "Y"),
+                new YourData("FunctionalArea2", "N"),
+                new YourData("FunctionalArea3", "Y")
+        );
+    }
+}

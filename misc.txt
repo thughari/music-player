@@ -226,3 +226,85 @@ public class ListComparisonApplication implements CommandLineRunner {
         );
     }
 }
+
+
+
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import java.util.List;
+import java.util.Map;
+import java.util.Optional;
+
+@SpringBootApplication
+public class ListComparisonApplication implements CommandLineRunner {
+
+    @Autowired
+    private YourEntityRepository entityRepository;
+
+    public static void main(String[] args) {
+        SpringApplication.run(ListComparisonApplication.class, args);
+    }
+
+    @Override
+    public void run(String... args) {
+        List<Map<String, Object>> dbData = fetchDataFromDb();
+        List<String> apiData = fetchDataFromApi();
+
+        for (String newFunctionalAreaName : apiData) {
+            Optional<Map<String, Object>> matchingRow = findRowByFunctionalAreaName(dbData, newFunctionalAreaName);
+
+            if (matchingRow.isPresent()) {
+                Map<String, Object> existingRow = matchingRow.get();
+                if (existingRow.get("isActive").equals("N")) {
+                    // If isActive is "N" in DB, update it to "Y"
+                    updateDbRow(existingRow, "Y");
+                    System.out.println("Updating isActive to 'Y' in DB: " + newFunctionalAreaName);
+                }
+            } else {
+                // Data with the same functional area name doesn't exist in DB, insert new data
+                insertIntoDb(newFunctionalAreaName, "Y"); // Assuming default is "Y" for new entries
+                System.out.println("Inserting into DB: " + newFunctionalAreaName);
+            }
+        }
+    }
+
+    private List<Map<String, Object>> fetchDataFromDb() {
+        // Simulate fetching data from DB
+        // Replace this with your actual method to fetch data from the database
+        // For now, a dummy implementation is provided
+        return List.of(
+                Map.of("functionalAreaName", "FunctionalArea1", "isActive", "Y"),
+                Map.of("functionalAreaName", "FunctionalArea2", "isActive", "N"),
+                Map.of("functionalAreaName", "FunctionalArea3", "isActive", "Y")
+        );
+    }
+
+    private void updateDbRow(Map<String, Object> row, String newIsActive) {
+        // Simulate updating data in the database
+        // Replace this with your actual method to update data in the database
+        row.put("isActive", newIsActive);
+    }
+
+    private void insertIntoDb(String functionalAreaName, String isActive) {
+        // Simulate inserting data into the database
+        // Replace this with your actual method to insert data into the database
+        System.out.println("Inserting into DB: " + functionalAreaName);
+    }
+
+    private Optional<Map<String, Object>> findRowByFunctionalAreaName(List<Map<String, Object>> dbData, String functionalAreaName) {
+        return dbData.stream()
+                .filter(row -> row.get("functionalAreaName").equals(functionalAreaName))
+                .findFirst();
+    }
+
+    private List<String> fetchDataFromApi() {
+        // Simulate fetching data from API
+        return List.of("FunctionalArea1", "FunctionalArea2", "FunctionalArea3");
+    }
+}
+
+

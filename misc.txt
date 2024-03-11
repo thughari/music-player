@@ -1,0 +1,79 @@
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
+
+public class ListComparisonExample {
+
+    public static void main(String[] args) {
+        List<String> apiData = fetchDataFromApi();
+        Set<String> dbData = new HashSet<>(fetchDataFromDb());
+
+        for (String newData : apiData) {
+            if (!dbData.contains(newData)) {
+                insertIntoDb(newData);
+                dbData.add(newData);  // Update the set to reflect the inserted data
+            }
+        }
+    }
+
+    private static List<String> fetchDataFromApi() {
+        // Simulate fetching data from API
+        List<String> apiData = List.of("Item1", "Item2", "Item3");
+        return apiData;
+    }
+
+    private static List<String> fetchDataFromDb() {
+        // Simulate fetching data from DB
+        List<String> dbData = List.of("Item1", "Item2");
+        return dbData;
+    }
+
+    private static void insertIntoDb(String newData) {
+        // Implement your database insertion logic here
+        System.out.println("Inserting into DB: " + newData);
+        // You may want to use JDBC or an ORM framework for actual database interactions
+    }
+}
+
+
+
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ListComparisonExample {
+
+    public static void main(String[] args) {
+        List<String> apiData = fetchDataFromApi();
+        List<String> dbData = fetchDataFromDb();
+
+        for (String newData : apiData) {
+            if (!dbData.contains(newData)) {
+                insertIntoDb(newData);
+            }
+        }
+    }
+
+    private static List<String> fetchDataFromApi() {
+        // Simulate fetching data from API
+        List<String> apiData = new ArrayList<>();
+        apiData.add("Item1");
+        apiData.add("Item2");
+        apiData.add("Item3");
+        return apiData;
+    }
+
+    private static List<String> fetchDataFromDb() {
+        // Simulate fetching data from DB
+        List<String> dbData = new ArrayList<>();
+        dbData.add("Item1");
+        dbData.add("Item2");
+        return dbData;
+    }
+
+    private static void insertIntoDb(String newData) {
+        // Implement your database insertion logic here
+        System.out.println("Inserting into DB: " + newData);
+        // You may want to use JDBC or an ORM framework for actual database interactions
+    }
+}

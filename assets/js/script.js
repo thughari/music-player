@@ -9,902 +9,124 @@
 
 
 const musicData = [
-  {
-      "backgroundImage": "./assets/images/Anand.webp",
-      "title": "Yedalo Gaanam",
-      "album": "Anand",
-      "year": 2004,
-      "artist": "",
-      "musicPath": "./assets/music/Yedalo Gaanam.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Anand.webp",
-      "title": "Telisi Telisi",
-      "album": "Anand",
-      "year": 2004,
-      "artist": "",
-      "musicPath": "./assets/music/Telisi Telisi.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Anand.webp",
-      "title": "Charumati I Love U",
-      "album": "Anand",
-      "year": 2004,
-      "artist": "",
-      "musicPath": "./assets/music/Charumati I Love U.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Anand.webp",
-      "title": "Nuvvena",
-      "album": "Anand",
-      "year": 2004,
-      "artist": "",
-      "musicPath": "./assets/music/Nuvvena.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Anand.webp",
-      "title": "Yamuna Teeram",
-      "album": "Anand",
-      "year": 2004,
-      "artist": "",
-      "musicPath": "./assets/music/Yamuna Teeram.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Anand.webp",
-      "title": "Vache Vache",
-      "album": "Anand",
-      "year": 2004,
-      "artist": "",
-      "musicPath": "./assets/music/Vache Vache.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Darling.jpg",
-      "title": "Bulle",
-      "album": "Darling",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Bulle-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Darling.jpg",
-      "title": "Hosahore",
-      "album": "Darling",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Hosahore-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Darling.jpg",
-      "title": "Inka Edo",
-      "album": "Darling",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Inka Edo-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Darling.jpg",
-      "title": "Neeve",
-      "album": "Darling",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Neeve-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Darling.jpg",
-      "title": "YeYo",
-      "album": "Darling",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/YeYo-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gharshanaa.jpg",
-      "title": "Cheliya Cheliya",
-      "album": "Darling",
-      "year": 2004,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Cheliya Cheliya - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gharshanaa.jpg",
-      "title": "Nanne Nanne ",
-      "album": "Darling",
-      "year": 2004,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Nanne Nanne  - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gharshanaa.jpg",
-      "title": "Andagaada ",
-      "album": "Darling",
-      "year": 2004,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Andagaada  - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gharshanaa.jpg",
-      "title": "Aadatanama ",
-      "album": "Darling",
-      "year": 2004,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Aadatanama  - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gharshanaa.jpg",
-      "title": "Ye Chilipi ",
-      "album": "Darling",
-      "year": 2004,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Ye Chilipi  - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gharshanaa.jpg",
-      "title": "Theme Of Gharshanaa ",
-      "album": "Darling",
-      "year": 2004,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Theme Of Gharshanaa  - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gharshanaa.jpg",
-      "title": "The Encounter ",
-      "album": "Darling",
-      "year": 2004,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/The Encounter  - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gang-Leader.jpg",
-      "title": "Ninnu Chuse Anandamlo",
-      "album": "Gang Leader",
-      "year": 2019,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Ninnu Chuse Anandamlo - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gang-Leader.jpg",
-      "title": "Hoyna Hoyna",
-      "album": "Gang Leader",
-      "year": 2019,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Hoyna Hoyna - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gang-Leader.jpg",
-      "title": "Ra Ra (Roar of the Revengers)",
-      "album": "Gang Leader",
-      "year": 2019,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Ra Ra (Roar of the Revengers) - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Gang-Leader.jpg",
-      "title": "Gang-u Leader",
-      "album": "Gang Leader",
-      "year": 2019,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Gang-u Leader - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Godavari.jpg",
-      "title": "Ramachakani Sita",
-      "album": "Godavari",
-      "year": 2006,
-      "artist": "",
-      "musicPath": "./assets/music/Ramachakani Sita.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Godavari.jpg",
-      "title": "Tippulu Tappulu",
-      "album": "Godavari",
-      "year": 2006,
-      "artist": "",
-      "musicPath": "./assets/music/Tippulu Tappulu.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Godavari.jpg",
-      "title": "Manasa Gelupu",
-      "album": "Godavari",
-      "year": 2006,
-      "artist": "",
-      "musicPath": "./assets/music/Manasa Gelupu.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Godavari.jpg",
-      "title": "Andamgaalena",
-      "album": "Godavari",
-      "year": 2006,
-      "artist": "",
-      "musicPath": "./assets/music/Andamgaalena.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Godavari.jpg",
-      "title": "Manasavacha",
-      "album": "Godavari",
-      "year": 2006,
-      "artist": "",
-      "musicPath": "./assets/music/Manasavacha.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Godavari.jpg",
-      "title": "Uppongele Godavari",
-      "album": "Godavari",
-      "year": 2006,
-      "artist": "",
-      "musicPath": "./assets/music/Uppongele Godavari.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Jalsa.jpg",
-      "title": "Chalore Chalore Chal (Telugu)",
-      "album": "Jalsa",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Chalore Chalore Chal (Telugu)-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Jalsa.jpg",
-      "title": "Gaallo Thelinattunde",
-      "album": "Jalsa",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Gaallo Thelinattunde-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Jalsa.jpg",
-      "title": "Jalsa",
-      "album": "Jalsa",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Jalsa-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Jalsa.jpg",
-      "title": "Jennifer Lopez",
-      "album": "Jalsa",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Jennifer Lopez-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Jalsa.jpg",
-      "title": "My Heart Is Beating (Remix)",
-      "album": "Jalsa",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/My Heart Is Beating (Remix)-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Jalsa.jpg",
-      "title": "My Heart Is Beating",
-      "album": "Jalsa",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/My Heart Is Beating-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Jalsa.jpg",
-      "title": "You & I",
-      "album": "Jalsa",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/You & I-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Malli-Rava.jpg",
-      "title": "Malli Raava",
-      "album": "Malli-Rava",
-      "year": 2017,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Malli Raava - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Animals.png",
-      "title": "Animals",
-      "album": "Maroon 5",
-      "year": 2004,
-      "artist": "Maroon 5",
-      "musicPath": "./assets/music/Animals---Maroon-5.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Murari.jpg",
-      "title": "Alanati Ramachandrudu",
-      "album": "Murari",
-      "year": 2001,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Alanati Ramachandrudu-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Murari.jpg",
-      "title": "Andaanike Aadanive",
-      "album": "Murari",
-      "year": 2001,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Andaanike Aadanive-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Murari.jpg",
-      "title": "Bangaru Kalla",
-      "album": "Murari",
-      "year": 2001,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Bangaru Kalla-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Murari.jpg",
-      "title": "Bhama Bhama",
-      "album": "Murari",
-      "year": 2001,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Bhama Bhama-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Murari.jpg",
-      "title": "Cheppamma Cheppamma",
-      "album": "Murari",
-      "year": 2001,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Cheppamma Cheppamma-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Murari.jpg",
-      "title": "Dum Dum Dum",
-      "album": "Murari",
-      "year": 2001,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Dum Dum Dum-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Murari.jpg",
-      "title": "Ekkada Ekkada",
-      "album": "Murari",
-      "year": 2001,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Ekkada Ekkada-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Ninnu-Kori.jpg",
-      "title": "Unnatundi Gundey",
-      "album": "Ninnu Kori",
-      "year": 2017,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Unnatundi Gundey - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Ninnu-Kori.jpg",
-      "title": "Gang-u Leader",
-      "album": "Ninnu Kori",
-      "year": 2017,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Gang-u Leader - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Ninnu-Kori.jpg",
-      "title": "Adiga Adiga",
-      "album": "Ninnu Kori",
-      "year": 2017,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Adiga Adiga - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Ninnu-Kori.jpg",
-      "title": "Once Upon a Time Lo",
-      "album": "Ninnu Kori",
-      "year": 2017,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Once Upon a Time Lo - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Ninnu-Kori.jpg",
-      "title": "Ninnu Kori ",
-      "album": "Ninnu Kori",
-      "year": 2017,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Ninnu Kori  - SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Orange.jpg",
-      "title": "Ola Olaala Ala",
-      "album": "Orange",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/1-Ola Olaala Ala-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Orange.jpg",
-      "title": "Chilipiga",
-      "album": "Orange",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/2-Chilipiga-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Orange.jpg",
-      "title": "Nenu Nuvvantu",
-      "album": "Orange",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/3-Nenu Nuvvantu-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Orange.jpg",
-      "title": "Hello Rammante",
-      "album": "Orange",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/4-Hello Rammante-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Orange.jpg",
-      "title": "O Range",
-      "album": "Orange",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/5- O Range-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Orange.jpg",
-      "title": "Rooba Rooba",
-      "album": "Orange",
-      "year": 2010,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/6-Rooba Rooba-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Oy!.jpg",
-      "title": "Oy! Oy!",
-      "album": "Oy",
-      "year": 2009,
-      "artist": "",
-      "musicPath": "./assets/music/01 - Oy! Oy! - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Oy!.jpg",
-      "title": "Saradaga",
-      "album": "Oy",
-      "year": 2009,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/02 - Saradaga - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Oy!.jpg",
-      "title": "Waiting For You",
-      "album": "Oy",
-      "year": 2009,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/03 - Waiting For You - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Oy!.jpg",
-      "title": "Anukoledenadu",
-      "album": "Oy",
-      "year": 2009,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/04 - Anukoledenadu - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Oy!.jpg",
-      "title": "Povodhe Prema",
-      "album": "Oy",
-      "year": 2009,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/05 - Povodhe Prema - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Oy!.jpg",
-      "title": "Seheri",
-      "album": "Oy",
-      "year": 2009,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/06 - Seheri - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Panjaa.jpg",
-      "title": "Paparayudu",
-      "album": "Panjaa",
-      "year": 2016,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Paparayudu-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Panjaa.jpg",
-      "title": "Ela Ela",
-      "album": "Panjaa",
-      "year": 2016,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Ela Ela-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Panjaa.jpg",
-      "title": "Veyira Cheyyi",
-      "album": "Panjaa",
-      "year": 2016,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Veyira Cheyyi-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Panjaa.jpg",
-      "title": "Anukoneledhugaa",
-      "album": "Panjaa",
-      "year": 2016,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Anukoneledhugaa-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Panjaa.jpg",
-      "title": "Panja3.Co",
-      "album": "Panjaa",
-      "year": 2016,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Panja-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Panjaa.jpg",
-      "title": "Kshanam Kshanam",
-      "album": "Panjaa",
-      "year": 2016,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/Kshanam Kshanam-SenSongsMp3.Co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Divide.jpeg",
-      "title": "Perfect",
-      "album": "Single",
-      "year": 2017,
-      "artist": "Ed Sheeran",
-      "musicPath": "./assets/music/Perfect(Mr-Jatt1.com).mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Taylor_Swift.png",
-      "title": "Shake It Off",
-      "album": "Single",
-      "year": 2006,
-      "artist": "Taylor Swift",
-      "musicPath": "./assets/music/Shake It Off.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/One-Direction.jpg",
-      "title": "Drag-Me-Down",
-      "album": "Single",
-      "year": 2010,
-      "artist": "One Direction",
-      "musicPath": "./assets/music/Drag-Me-Down.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/One-Direction.jpg",
-      "title": "Perfect-One-Direction",
-      "album": "Single",
-      "year": 2010,
-      "artist": "One Direction",
-      "musicPath": "./assets/music/Perfect-One-Direction.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/One-Direction.jpg",
-      "title": "Live-While-We're-Young",
-      "album": "Single",
-      "year": 2010,
-      "artist": "One Direction",
-      "musicPath": "./assets/music/Live-While-We're-Young.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/One-Direction.jpg",
-      "title": "What-Makes-You-Beautiful",
-      "album": "Single",
-      "year": 2010,
-      "artist": "One Direction",
-      "musicPath": "./assets/music/What-Makes-You-Beautiful.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/One-Direction.jpg",
-      "title": "Steal-My-Girl",
-      "album": "Single",
-      "year": 2010,
-      "artist": "One Direction",
-      "musicPath": "./assets/music/Steal-My-Girl.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/One-Direction.jpg",
-      "title": "Night-Changes",
-      "album": "Single",
-      "year": 2010,
-      "artist": "One Direction",
-      "musicPath": "./assets/music/Night-Changes.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Annhiliate",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Annihilate.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Am I Dreaming",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Am-I-Dreaming.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "All The Way Live",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-All-The-Way-Live.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Danger-Spider",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Danger-Spider.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Hummingbird",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Hummingbird.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Calling",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Calling.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Silk and Cologne Spider Verse Remix",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Silk-and-Cologne-Spider-Verse-Remix.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Link Up",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Link-Up-Spider-Verse-Remix.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Self-Love",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Self-Love.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Home",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Home.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Nonviolent Communication",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Nonviolent-Communication.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Givin Up Not The One",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Givin-Up-Not-The-One.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Nas Morales",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Metro Boomin",
-      "musicPath": "./assets/music/Metro-Boomin-Nas-Morales.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Across-the-spiderverse.jpg",
-      "title": "Mona Lisa",
-      "album": "Spiderman-Across-the-spiderverse",
-      "year": 2023,
-      "artist": "Dominic Fike",
-      "musicPath": "./assets/music/Dominic Fike - Mona Lisa (Official Audio) (320 kbps).mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Into-the-spiderverse.webp",
-      "title": "Sunflower",
-      "album": "Spiderman-Into-the-spiderverse",
-      "year": 2018,
-      "artist": "Post Malone",
-      "musicPath": "./assets/music/Post-Malone-Sunflower-Spider-Man-Into-the-Spider-Verse.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/Into-the-spiderverse.webp",
-      "title": "Whats Up Danger Spider",
-      "album": "Spiderman-Into-the-spiderverse",
-      "year": 2018,
-      "artist": "Dominic Fike",
-      "musicPath": "./assets/music/Whats_Up_Danger_Spider-Man_Into_the_Spider-Verse.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/surya-s-o-krishnan.avif",
-      "title": "Yedhane Koiyyake",
-      "album": "SURYA SON OF KRISHNAN",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/01 - Yedhane Koiyyake - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/surya-s-o-krishnan.avif",
-      "title": "Naalona Pongenu",
-      "album": "SURYA SON OF KRISHNAN",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/02 - Naalona Pongenu - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/surya-s-o-krishnan.avif",
-      "title": "Yegasi Yegasi",
-      "album": "SURYA SON OF KRISHNAN",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/03 - Yegasi Yegasi - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/surya-s-o-krishnan.avif",
-      "title": "Monna Kanipinchavu",
-      "album": "SURYA SON OF KRISHNAN",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/04 - Monna Kanipinchavu - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/surya-s-o-krishnan.avif",
-      "title": "O Shanthi Shanthi",
-      "album": "SURYA SON OF KRISHNAN",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/05 - O Shanthi Shanthi - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/surya-s-o-krishnan.avif",
-      "title": "Adhey Nannu",
-      "album": "SURYA SON OF KRISHNAN",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/06 - Adhey Nannu - SenSongsMp3.co.mp3"
-  },
-  {
-      "backgroundImage": "./assets/images/surya-s-o-krishnan.avif",
-      "title": "Nidhare Kala",
-      "album": "SURYA SON OF KRISHNAN",
-      "year": 2008,
-      "artist": "Unknown",
-      "musicPath": "./assets/music/07 - Nidhare Kala - SenSongsMp3.co.mp3"
-  },
-  {
-        backgroundImage: "./assets/images/ArjunReddy.jpg",
-        title: "MadhurameMari MariMari Mari", 
-        album: "Arjun Reddy", 
-        year: 2017, 
-        artist: "Unknown", 
-        musicPath: "./assets/music/Madhurame - SenSongsMp3.Co.mp3",
-  },
-  {
-        backgroundImage: "./assets/images/ArjunReddy.jpg", 
-        title: "Telisiney Na NuvveyMari MariMari Mari", 
-        album: "Arjun Reddy", 
-        year: 2017, 
-        artist: "Unknown", 
-        musicPath: "./assets/music/Telisiney Na Nuvvey - SenSongsMp3.Co.mp3",
-  },
-  {
-        backgroundImage: "./assets/images/ArjunReddy.jpg", 
-        title: "Oopiri AaguthunnadeyMari MariMari Mari", 
-        album: "Arjun Reddy", 
-        year: 2017, 
-        artist: "Unknown", 
-        musicPath: "./assets/music/Oopiri Aaguthunnadey - SenSongsMp3.Co.mp3",
-  },
-  {
-        backgroundImage: "./assets/images/ArjunReddy.jpg", 
-        title: "GundelonaaMari MariMari Mari", 
-        album: "Arjun Reddy", 
-        year: 2017, 
-        artist: "Unknown", 
-        musicPath: "./assets/music/Gundelonaa - SenSongsMp3.Co.mp3",
-  },
-  {
-        backgroundImage: "./assets/images/ArjunReddy.jpg", 
-        title: "EmitemitemoMari MariMari Mari", 
-        album: "Arjun Reddy", 
-        year: 2017, 
-        artist: "Unknown", 
-        musicPath: "./assets/music/Emitemitemo - SenSongsMp3.Co.mp3",
-  },
-  {
-        backgroundImage: "./assets/images/ArjunReddy.jpg", 
-        title: "DhooramMari MariMari Mari", 
-        album: "Arjun Reddy", 
-        year: 2017, 
-        artist: "Unknown", 
-        musicPath: "./assets/music/Dhooram - SenSongsMp3.Co.mp3",
-  },
-  {
-        backgroundImage: "./assets/images/ArjunReddy.jpg", 
-        title: "Mari MariMari MariMari Mari", 
-        album: "Arjun Reddy", 
-        year: 2017, 
-        artist: "Unknown", 
-        musicPath: "./assets/music/Mari Mari - SenSongsMp3.Co.mp3",
-  },
-  {
-    backgroundImage: "./assets/images/Louis-Tomlinson.webp", 
-    title: "Kill My Mind", 
-    album: "Single", 
-    year: 2017, 
-    artist: "Louis Tomlinson", 
-    musicPath: "./assets/music/Louis_Tomlinson_-_Kill_My_Mind.mp3",
-  },
-  {
-    backgroundImage: "./assets/images/Awaara.jpg", 
-    title: "Nee Yadalo Naaku", 
-    album: "Awaara", 
-    year: 2010, 
-    artist: "Unknown", 
-    musicPath: "./assets/music/Nee Yadalo Naaku-SenSongsMp3.Co.mp3",
-  },
-  {
-    backgroundImage: "./assets/images/Awaara.jpg", 
-    title: "Arere Vaanaa", 
-    album: "Awaara", 
-    year: 2010, 
-    artist: "Unknown", 
-    musicPath: "./assets/music/Arere Vaanaa-SenSongsMp3.Co.mp3",
-  },
-  {
-    backgroundImage: "./assets/images/Awaara.jpg", 
-    title: "Yedho Alajadi", 
-    album: "Awaara", 
-    year: 2010, 
-    artist: "Unknown", 
-    musicPath: "./assets/music/Yedho Alajadi - SenSongsMp3.Co.mp3",
-  },
-  {
-    backgroundImage: "./assets/images/Awaara.jpg", 
-    title: "Chuttesai Chuttesai", 
-    album: "Awaara", 
-    year: 2010, 
-    artist: "Unknown", 
-    musicPath: "./assets/music/Chuttesai Chuttesai-SenSongsMp3.Co.mp3",
-  },
-  {
-    backgroundImage: "./assets/images/Awaara.jpg", 
-    title: "Mandaara Poovalle", 
-    album: "Awaara", 
-    year: 2010, 
-    artist: "Unknown", 
-    musicPath: "./assets/music/Mandaara Poovalle-SenSongsMp3.Co.mp3",
-  },
-  {
-    backgroundImage: "./assets/images/Awaara.jpg", 
-    title: "Chiru Chiru Chiru", 
-    album: "Awaara", 
-    year: 2010, 
-    artist: "Unknown", 
-    musicPath: "./assets/music/Chiru Chiru Chiru-SenSongsMp3.Co.mp3",
-  },
+  {'backgroundImage': './assets/images/Oy_ _2009_.jpg', 'title': '01 - Oy! Oy!-(www.SenSongsMp3.co)', 'album': 'Oy! (2009)', 'year': '2009', 'artist': 'Oy!', 'musicPath': './assets/music/01 - Oy! Oy! - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Surya son of Krishnan _2008_.jpg', 'title': '01 - Yedhane Koiyyake-(www.SenSongsMp3.co)', 'album': 'Surya son of Krishnan (2008)', 'year': '2008', 'artist': 'Surya s/o Krishnan', 'musicPath': './assets/music/01 - Yedhane Koiyyake - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Surya son of Krishnan _2008_.jpg', 'title': '02 - Naalona Pongenu-(www.SenSongsMp3.co)', 'album': 'Surya son of Krishnan (2008)', 'year': '2008', 'artist': 'Surya s/o Krishnan', 'musicPath': './assets/music/02 - Naalona Pongenu - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Oy_ _2009_.jpg', 'title': '02 - Saradaga-(www.SenSongsMp3.co)', 'album': 'Oy! (2009)', 'year': '2009', 'artist': 'Oy!', 'musicPath': './assets/music/02 - Saradaga - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Oy_ _2009_.jpg', 'title': '03 - Waiting For You-(www.SenSongsMp3.co)', 'album': 'Oy! (2009)', 'year': '2009', 'artist': 'Oy!', 'musicPath': './assets/music/03 - Waiting For You - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Surya son of Krishnan _2008_.jpg', 'title': '03 - Yegasi Yegasi-(www.SenSongsMp3.co)', 'album': 'Surya son of Krishnan (2008)', 'year': '2008', 'artist': 'Surya s/o Krishnan', 'musicPath': './assets/music/03 - Yegasi Yegasi - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Oy_ _2009_.jpg', 'title': '04 - Anukoledenadu-(www.SenSongsMp3.co)', 'album': 'Oy! (2009)', 'year': '2009', 'artist': 'Oy!', 'musicPath': './assets/music/04 - Anukoledenadu - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Surya son of Krishnan _2008_.jpg', 'title': '04 - Monna Kanipinchavu-(www.SenSongsMp3.co)', 'album': 'Surya son of Krishnan (2008)', 'year': '2008', 'artist': 'Surya s/o Krishnan', 'musicPath': './assets/music/04 - Monna Kanipinchavu - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Surya son of Krishnan _2008_.jpg', 'title': '05 - O Shanthi Shanthi-(www.SenSongsMp3.co)', 'album': 'Surya son of Krishnan (2008)', 'year': '2008', 'artist': 'Surya s/o Krishnan', 'musicPath': './assets/music/05 - O Shanthi Shanthi - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Oy_ _2009_.jpg', 'title': '05 - Povodhe Prema-(www.SenSongsMp3.co)', 'album': 'Oy! (2009)', 'year': '2009', 'artist': 'Oy!', 'musicPath': './assets/music/05 - Povodhe Prema - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Surya son of Krishnan _2008_.jpg', 'title': '06 - Adhey Nannu-(www.SenSongsMp3.co)', 'album': 'Surya son of Krishnan (2008)', 'year': '2008', 'artist': 'Surya s/o Krishnan', 'musicPath': './assets/music/06 - Adhey Nannu - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Oy_ _2009_.jpg', 'title': '06 - Seheri-(www.SenSongsMp3.co)', 'album': 'Oy! (2009)', 'year': '2009', 'artist': 'Oy!', 'musicPath': './assets/music/06 - Seheri - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Surya son of Krishnan _2008_.jpg', 'title': '07 - Nidhare Kala-(www.SenSongsMp3.co)', 'album': 'Surya son of Krishnan (2008)', 'year': '2008', 'artist': 'Surya s/o Krishnan', 'musicPath': './assets/music/07 - Nidhare Kala - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Orange _2010_.jpg', 'title': 'Ola Olaala Ala-SenSongsMp3.Co', 'album': 'Orange (2010)', 'year': '2010', 'artist': 'Ram Charan Tej,Genelia', 'musicPath': './assets/music/1-Ola Olaala Ala-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Orange _2010_.jpg', 'title': 'Chilipiga-SenSongsMp3.Co', 'album': 'Orange (2010)', 'year': '2010', 'artist': 'Ram Charan Tej,Genelia', 'musicPath': './assets/music/2-Chilipiga-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Orange _2010_.jpg', 'title': 'Nenu Nuvvantu-SenSongsMp3.Co', 'album': 'Orange (2010)', 'year': '2010', 'artist': 'Ram Charan Tej,Genelia', 'musicPath': './assets/music/3-Nenu Nuvvantu-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Orange _2010_.jpg', 'title': 'Hello Rammante-SenSongsMp3.Co', 'album': 'Orange (2010)', 'year': '2010', 'artist': 'Ram Charan Tej,Genelia', 'musicPath': './assets/music/4-Hello Rammante-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Orange _2010_.jpg', 'title': 'O Range -SenSongsMp3.Co', 'album': 'Orange (2010)', 'year': '2010', 'artist': 'Ram Charan Tej,Genelia', 'musicPath': './assets/music/5- O Range-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Orange _2010_.jpg', 'title': 'Rooba Rooba -SenSongsMp3.Co', 'album': 'Orange (2010)', 'year': '2010', 'artist': 'Ram Charan Tej,Genelia', 'musicPath': './assets/music/6-Rooba Rooba-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Gharshanaa _2004_.jpg', 'title': '04 - Aadatanama -(www.SenSongsMp3.co)', 'album': 'Gharshanaa (2004)', 'year': '2004', 'artist': 'Gharshanaa', 'musicPath': './assets/music/Aadatanama  - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Ninnu Kori _2017_.jpg', 'title': 'Adiga Adiga :: SenSongsMp3.Co', 'album': 'Ninnu Kori (2017)', 'year': '2017', 'artist': 'Nani, Nivetha Thomas, Aadhi Pinisetty', 'musicPath': './assets/music/Adiga Adiga - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Murari_2001_.jpg', 'title': 'Alanati Ramachandrudu-SenSongsMp3.Co', 'album': 'Murari(2001)', 'year': '2001', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Alanati Ramachandrudu-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Murari_2001_.jpg', 'title': 'Andaanike Aadanive-SenSongsMp3.Co', 'album': 'Murari(2001)', 'year': '2001', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Andaanike Aadanive-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Gharshanaa _2004_.jpg', 'title': '03 - Andagaada -(www.SenSongsMp3.co)', 'album': 'Gharshanaa (2004)', 'year': '2004', 'artist': 'Gharshanaa', 'musicPath': './assets/music/Andagaada  - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Godavari _2006_.jpg', 'title': '03 - Andamgaalena -(www.SenSongsMp3.co)', 'album': 'Godavari (2006)', 'year': '2006', 'artist': 'Godavari', 'musicPath': './assets/music/Andamgaalena.mp3'},
+  {'backgroundImage': './assets/images/Godavari _2006_.jpg', 'title': 'Animals - Maroon 5(PagalWorlld.Com)', 'album': 'New Viral Songs :: PagalWorlld.Com', 'year': '2023', 'artist': 'PagalWorlld.Com', 'musicPath': './assets/music/Animals---Maroon-5.mp3'},
+  {'backgroundImage': './assets/images/Panjaa_2011_.jpg', 'title': 'Anukoneledhuga-My3Songs.Com', 'album': 'Panjaa(2011)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Anukoneledhugaa-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Awaara _2010_.jpg', 'title': 'Arere Vaanaa-SenSongsMp3.Co', 'album': 'Awaara (2010)', 'year': '2010', 'artist': 'Karthi, Tamanna', 'musicPath': './assets/music/Arere Vaanaa-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Murari_2001_.jpg', 'title': 'Bangaru Kalla-SenSongsMp3.Co', 'album': 'Murari(2001)', 'year': '2001', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Bangaru Kalla-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Murari_2001_.jpg', 'title': 'Bhama Bhama-SenSongsMp3.Co', 'album': 'Murari(2001)', 'year': '2001', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Bhama Bhama-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Darling_2010_.jpg', 'title': 'Bulle-My3Songs.In', 'album': 'Darling(2010)', 'year': '2016', 'artist': 'Prabhas,Kajal', 'musicPath': './assets/music/Bulle-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Jalsa_2008_.jpg', 'title': 'Chalore Chalore Chal (Telugu)-My3Songs.Com', 'album': 'Jalsa(2008)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Chalore Chalore Chal (Telugu)-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Anand _2004_.jpg', 'title': 'Charumati I Love U :: SenSongsMp3.Com', 'album': 'Anand (2004)', 'year': '2004', 'artist': 'Raja, Kamalinee Mukherjee', 'musicPath': './assets/music/Charumati I Love U.mp3'},
+  {'backgroundImage': './assets/images/Gharshanaa _2004_.jpg', 'title': '01 - Cheliya Cheliya-(www.SenSongsMp3.co)', 'album': 'Gharshanaa (2004)', 'year': '2004', 'artist': 'Gharshanaa', 'musicPath': './assets/music/Cheliya Cheliya - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Murari_2001_.jpg', 'title': 'Cheppamma Cheppamma-SenSongsMp3.Co', 'album': 'Murari(2001)', 'year': '2001', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Cheppamma Cheppamma-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Awaara _2010_.jpg', 'title': 'Chiru Chiru Chiru-SenSongsMp3.Co', 'album': 'Awaara (2010)', 'year': '2010', 'artist': 'Karthi, Tamanna', 'musicPath': './assets/music/Chiru Chiru Chiru-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Awaara _2010_.jpg', 'title': 'Chuttesai Chuttesai-SenSongsMp3.Co', 'album': 'Awaara (2010)', 'year': '2010', 'artist': 'Karthi, Tamanna', 'musicPath': './assets/music/Chuttesai Chuttesai-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'Dhooram :: SenSongsMp3.Co', 'album': 'Arjun Reddy (2017)', 'year': '2017', 'artist': 'Vijay Deverakonda, Shalini Pandey', 'musicPath': './assets/music/Dhooram - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'X2Download.com - Dominic Fike - Mona Lisa (Official Audio)', 'album': 'Unknown', 'year': 'Unknown', 'artist': 'Unknown', 'musicPath': './assets/music/Dominic Fike - Mona Lisa (Official Audio) (320 kbps).mp3'},
+  {'backgroundImage': './assets/images/One Direction All Song Albums Mp3 __ PagalWorld_Social.jpg', 'title': 'Drag Me Down(PagalWorld.Social)', 'album': 'One Direction All Song Albums Mp3 :: PagalWorld.Social', 'year': '2023', 'artist': 'PagalWorld.Social', 'musicPath': './assets/music/Drag-Me-Down.mp3'},
+  {'backgroundImage': './assets/images/Murari_2001_.jpg', 'title': 'Dum Dum Dum-SenSongsMp3.Co', 'album': 'Murari(2001)', 'year': '2001', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Dum Dum Dum-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Murari_2001_.jpg', 'title': 'Ekkada Ekkada-SenSongsMp3.Co', 'album': 'Murari(2001)', 'year': '2001', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Ekkada Ekkada-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Panjaa_2011_.jpg', 'title': 'Ela Ela-My3Songs.Com', 'album': 'Panjaa(2011)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Ela Ela-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'Emitemitemo :: SenSongsMp3.Co', 'album': 'Arjun Reddy (2017)', 'year': '2017', 'artist': 'Vijay Deverakonda, Shalini Pandey', 'musicPath': './assets/music/Emitemitemo - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Jalsa_2008_.jpg', 'title': 'Gaallo Thelinattunde-My3Songs.Com', 'album': 'Jalsa(2008)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Gaallo Thelinattunde-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Gangleader _2019_.jpg', 'title': 'Gang-u Leader :: SenSongsMp3.Co', 'album': 'Gangleader (2019)', 'year': '2019', 'artist': 'Nani, Priyanka Arulmohan, Karthikeya', 'musicPath': './assets/music/Gang-u Leader - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'Gundelonaa :: SenSongsMp3.Co', 'album': 'Arjun Reddy (2017)', 'year': '2017', 'artist': 'Vijay Deverakonda, Shalini Pandey', 'musicPath': './assets/music/Gundelonaa - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Ninnu Kori _2017_.jpg', 'title': 'Hey Badhulu Cheppavey :: SenSongsMp3.Co', 'album': 'Ninnu Kori (2017)', 'year': '2017', 'artist': 'Nani, Nivetha Thomas, Aadhi Pinisetty', 'musicPath': './assets/music/Hey Badhulu Cheppavey - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Darling_2010_.jpg', 'title': 'Hosahore-My3Songs.In', 'album': 'Darling(2010)', 'year': '2016', 'artist': 'Prabhas,Kajal', 'musicPath': './assets/music/Hosahore-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Gangleader _2019_.jpg', 'title': 'Hoyna Hoyna :: SenSongsMp3.Co', 'album': 'Gangleader (2019)', 'year': '2019', 'artist': 'Nani, Priyanka Arulmohan, Karthikeya', 'musicPath': './assets/music/Hoyna Hoyna - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Darling_2010_.jpg', 'title': 'Inka Edo-My3Songs.In', 'album': 'Darling(2010)', 'year': '2016', 'artist': 'Prabhas,Kajal', 'musicPath': './assets/music/Inka Edo-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Jalsa_2008_.jpg', 'title': 'Jalsa-My3Songs.Com', 'album': 'Jalsa(2008)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Jalsa-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Jalsa_2008_.jpg', 'title': 'Jennifer Lopez-My3Songs.Com', 'album': 'Jalsa(2008)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Jennifer Lopez-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Panjaa_2011_.jpg', 'title': 'Kshanam Kshanam-My3Songs.Com', 'album': 'Panjaa(2011)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Kshanam Kshanam-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/One Direction All Song Albums Mp3 __ PagalWorld_Social.jpg', 'title': "Live While We're Young(PagalWorld.Social)", 'album': 'One Direction All Song Albums Mp3 :: PagalWorld.Social', 'year': '2023', 'artist': 'PagalWorld.Social', 'musicPath': "./assets/music/Live-While-We're-Young.mp3"},
+  {'backgroundImage': './assets/images/Jesusful_com.jpg', 'title': 'Kill My Mind || Jesusful.com', 'album': 'Jesusful.com', 'year': '2022', 'artist': 'Louis Tomlinson', 'musicPath': './assets/music/Louis_Tomlinson_-_Kill_My_Mind.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'Madhurame :: SenSongsMp3.Co', 'album': 'Arjun Reddy (2017)', 'year': '2017', 'artist': 'Vijay Deverakonda, Shalini Pandey', 'musicPath': './assets/music/Madhurame - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/MalliRaava _2017_.jpg', 'title': 'Malli Raava :: SenSongsMp3.Co', 'album': 'MalliRaava (2017)', 'year': '2017', 'artist': 'Sumanth, Aakanksha Singh', 'musicPath': './assets/music/Malli Raava - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Godavari _2006_.jpg', 'title': '04 - Manasa Gelupu -(www.SenSongsMp3.co)', 'album': 'Godavari (2006)', 'year': '2006', 'artist': 'Godavari', 'musicPath': './assets/music/Manasa Gelupu.mp3'},
+  {'backgroundImage': './assets/images/Godavari _2006_.jpg', 'title': '02 - Manasavacha -(www.SenSongsMp3.co)', 'album': 'Godavari (2006)', 'year': '2006', 'artist': 'Godavari', 'musicPath': './assets/music/Manasavacha.mp3'},
+  {'backgroundImage': './assets/images/Awaara _2010_.jpg', 'title': 'Mandaara Poovalle-SenSongsMp3.Co', 'album': 'Awaara (2010)', 'year': '2010', 'artist': 'Karthi, Tamanna', 'musicPath': './assets/music/Mandaara Poovalle-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'Mari Mari :: SenSongsMp3.Co', 'album': 'Arjun Reddy (2017)', 'year': '2017', 'artist': 'Vijay Deverakonda, Shalini Pandey', 'musicPath': './assets/music/Mari Mari - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'All The Way Live via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-All-The-Way-Live.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Am I Dreaming via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Am-I-Dreaming.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Annihilate via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Annihilate.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Calling via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Calling.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Danger (Spider) via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Danger-Spider.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': "Givin\\\\\\' Up (Not The One) via Nobadsong.com", 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Givin-Up-Not-The-One.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Home via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Home.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Hummingbird via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Hummingbird.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Link Up (Spider-Verse Remix) via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Link-Up-Spider-Verse-Remix.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Nas Morales via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Nas-Morales.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Nonviolent Communication via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Nonviolent-Communication.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Self Love via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Self-Love.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Silk and Cologne (Spider-Verse Remix) via Nobadsong.com', 'album': 'Spider-Man: Across the Spider-Verse (Soundtrack)', 'year': '2023', 'artist': 'Metro Boomin', 'musicPath': './assets/music/Metro-Boomin-Silk-and-Cologne-Spider-Verse-Remix.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Unknown', 'album': 'Unknown', 'year': '2021-10-12', 'artist': 'Unknown', 'musicPath': './assets/music/music-1.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Unknown', 'album': 'Unknown', 'year': '2021-07-18', 'artist': 'Unknown', 'musicPath': './assets/music/music-2.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Unknown', 'album': 'Unknown', 'year': '2021-10-15', 'artist': 'Unknown', 'musicPath': './assets/music/music-3.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Unknown', 'album': 'Unknown', 'year': '2021-10-13', 'artist': 'Unknown', 'musicPath': './assets/music/music-4.mp3'},
+  {'backgroundImage': './assets/images/Spider-Man_ Across the Spider-Verse _Soundtrack_.jpg', 'title': 'Unknown', 'album': 'Unknown', 'year': '2021-10-13', 'artist': 'Unknown', 'musicPath': './assets/music/music-5.mp3'},
+  {'backgroundImage': './assets/images/Jalsa_2008_.jpg', 'title': 'My Heart Is Beating (Remix)-My3Songs.Com', 'album': 'Jalsa(2008)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/My Heart Is Beating (Remix)-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Jalsa_2008_.jpg', 'title': 'My Heart Is Beating-My3Songs.Com', 'album': 'Jalsa(2008)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/My Heart Is Beating-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Gharshanaa _2004_.jpg', 'title': '02 - Nanne Nanne -(www.SenSongsMp3.co)', 'album': 'Gharshanaa (2004)', 'year': '2004', 'artist': 'Gharshanaa', 'musicPath': './assets/music/Nanne Nanne  - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Awaara _2010_.jpg', 'title': 'Nee Yadalo Naaku-SenSongsMp3.Co', 'album': 'Awaara (2010)', 'year': '2010', 'artist': 'Karthi, Tamanna', 'musicPath': './assets/music/Nee Yadalo Naaku-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Darling_2010_.jpg', 'title': 'Neeve-My3Songs.In', 'album': 'Darling(2010)', 'year': '2016', 'artist': 'Prabhas,Kajal', 'musicPath': './assets/music/Neeve-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/English Mp3 Songs - PagalWorldi_Com.jpg', 'title': 'Night Changes(PagalWorld)', 'album': 'English Mp3 Songs - PagalWorldi.Com', 'year': '2023', 'artist': 'PagalWorldi.Com', 'musicPath': './assets/music/Night-Changes.mp3'},
+  {'backgroundImage': './assets/images/Gangleader _2019_.jpg', 'title': 'Ninnu Chuse Anandamlo :: SenSongsMp3.Co', 'album': 'Gangleader (2019)', 'year': '2019', 'artist': 'Nani, Priyanka Arulmohan, Karthikeya', 'musicPath': './assets/music/Ninnu Chuse Anandamlo - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Ninnu Kori _2017_.jpg', 'title': 'Ninnu Kori  :: SenSongsMp3.Co', 'album': 'Ninnu Kori (2017)', 'year': '2017', 'artist': 'Nani, Nivetha Thomas, Aadhi Pinisetty', 'musicPath': './assets/music/Ninnu Kori  - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Anand _2004_.jpg', 'title': 'Nuvvena :: SenSongsMp3.Com', 'album': 'Anand (2004)', 'year': '2004', 'artist': 'Raja, Kamalinee Mukherjee', 'musicPath': './assets/music/Nuvvena.mp3'},
+  {'backgroundImage': './assets/images/Ninnu Kori _2017_.jpg', 'title': 'Once Upon a Time Lo :: SenSongsMp3.Co', 'album': 'Ninnu Kori (2017)', 'year': '2017', 'artist': 'Nani, Nivetha Thomas, Aadhi Pinisetty', 'musicPath': './assets/music/Once Upon a Time Lo - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'Oopiri Aaguthunnadey :: SenSongsMp3.Co', 'album': 'Arjun Reddy (2017)', 'year': '2017', 'artist': 'Vijay Deverakonda, Shalini Pandey', 'musicPath': './assets/music/Oopiri Aaguthunnadey - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Panjaa_2011_.jpg', 'title': 'Panja-My3Songs.Com', 'album': 'Panjaa(2011)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Panja-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Panjaa_2011_.jpg', 'title': 'Paparayudu-My3Songs.Com', 'album': 'Panjaa(2011)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Paparayudu-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Perfect - Ed Sheeran - Mr-Jatt1_com.jpg', 'title': 'Perfect(Mr-Jatt1.com)', 'album': 'Perfect - Ed Sheeran - Mr-Jatt1.com', 'year': '2023', 'artist': 'Mr-Jatt1.com', 'musicPath': './assets/music/Perfect(Mr-Jatt1.com).mp3'},
+  {'backgroundImage': './assets/images/One Direction All Song Albums Mp3 __ PagalWorld_Social.jpg', 'title': 'Perfect(PagalWorld.Social)', 'album': 'One Direction All Song Albums Mp3 :: PagalWorld.Social', 'year': '2023', 'artist': 'PagalWorld.Social', 'musicPath': './assets/music/Perfect-One-Direction.mp3'},
+  {'backgroundImage': './assets/images/Into-the-spiderverse.webp', 'title': 'Sunflower (Spider-Man: Into the Spider-Verse) | Nobadsong.com', 'album': 'Spiderverse', 'year': '2023', 'artist': 'Post Malone', 'musicPath': './assets/music/Post-Malone-Sunflower-Spider-Man-Into-the-Spider-Verse.mp3'},
+  {'backgroundImage': './assets/images/Gangleader _2019_.jpg', 'title': 'Ra Ra (Roar of the Revengers) :: SenSongsMp3.Co', 'album': 'Gangleader (2019)', 'year': '2019', 'artist': 'Nani, Priyanka Arulmohan, Karthikeya', 'musicPath': './assets/music/Ra Ra (Roar of the Revengers) - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Godavari _2006_.jpg', 'title': '06 - Ramachakani Sita -(www.SenSongsMp3.co)', 'album': 'Godavari (2006)', 'year': '2006', 'artist': 'Godavari', 'musicPath': './assets/music/Ramachakani Sita.mp3'},
+  {'backgroundImage': './assets/images/Taylor_Swift.png', 'title': 'Shake it off', 'album': 'Unknown', 'year': 'Unknown', 'artist': 'Taylor Swift', 'musicPath': './assets/music/Shake It Off.mp3'},
+  {'backgroundImage': './assets/images/English Mp3 Songs - PagalWorldi_Com.jpg', 'title': 'Steal My Girl - One Direction(PagalWorld)', 'album': 'English Mp3 Songs - PagalWorldi.Com', 'year': '2022', 'artist': 'PagalWorldi.Com', 'musicPath': './assets/music/Steal-My-Girl.mp3'},
+  {'backgroundImage': './assets/images/Anand _2004_.jpg', 'title': 'Telisi Telisi :: SenSongsMp3.Com', 'album': 'Anand (2004)', 'year': '2004', 'artist': 'Raja, Kamalinee Mukherjee', 'musicPath': './assets/music/Telisi Telisi.mp3'},
+  {'backgroundImage': './assets/images/Arjun Reddy _2017_.jpg', 'title': 'Telisiney Na Nuvvey :: SenSongsMp3.Co', 'album': 'Arjun Reddy (2017)', 'year': '2017', 'artist': 'Vijay Deverakonda, Shalini Pandey', 'musicPath': './assets/music/Telisiney Na Nuvvey - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Gharshanaa _2004_.jpg', 'title': '07 - The Encounter -(www.SenSongsMp3.co)', 'album': 'Gharshanaa (2004)', 'year': '2004', 'artist': 'Gharshanaa', 'musicPath': './assets/music/The Encounter  - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Gharshanaa _2004_.jpg', 'title': '06 - Theme Of Gharshanaa -(www.SenSongsMp3.co)', 'album': 'Gharshanaa (2004)', 'year': '2004', 'artist': 'Gharshanaa', 'musicPath': './assets/music/Theme Of Gharshanaa  - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Godavari _2006_.jpg', 'title': '05 - Tippulu Tappulu -(www.SenSongsMp3.co)', 'album': 'Godavari (2006)', 'year': '2006', 'artist': 'Godavari', 'musicPath': './assets/music/Tippulu Tappulu.mp3'},
+  {'backgroundImage': './assets/images/Ninnu Kori _2017_.jpg', 'title': 'Unnatundi Gundey :: SenSongsMp3.Co', 'album': 'Ninnu Kori (2017)', 'year': '2017', 'artist': 'Nani, Nivetha Thomas, Aadhi Pinisetty', 'musicPath': './assets/music/Unnatundi Gundey - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Godavari _2006_.jpg', 'title': '01 - Uppongele Godavari-(www.SenSongsMp3.co)', 'album': 'Godavari (2006)', 'year': '2006', 'artist': 'Godavari', 'musicPath': './assets/music/Uppongele Godavari.mp3'},
+  {'backgroundImage': './assets/images/Anand _2004_.jpg', 'title': 'Vache Vache :: SenSongsMp3.Com', 'album': 'Anand (2004)', 'year': '2004', 'artist': 'Raja, Kamalinee Mukherjee', 'musicPath': './assets/music/Vache Vache.mp3'},
+  {'backgroundImage': './assets/images/Panjaa_2011_.jpg', 'title': 'Veyira Cheyyi-My3Songs.Com', 'album': 'Panjaa(2011)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Veyira Cheyyi-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/One Direction All Song Albums Mp3 __ PagalWorld_Social.jpg', 'title': 'What Makes You Beautiful(PagalWorld.Social)', 'album': 'One Direction All Song Albums Mp3 :: PagalWorld.Social', 'year': '2023', 'artist': 'PagalWorld.Social', 'musicPath': './assets/music/What-Makes-You-Beautiful.mp3'},
+  {'backgroundImage': './assets/images/Into-the-spiderverse.webp', 'title': 'Whats up danger', 'album': 'Spiderverse', 'year': 'Unknown', 'artist': 'Unknown', 'musicPath': './assets/music/Whats_Up_Danger_Spider-Man_Into_the_Spider-Verse.mp3'},
+  {'backgroundImage': './assets/images/Anand _2004_.jpg', 'title': 'Yamuna Teeram :: SenSongsMp3.Com', 'album': 'Anand (2004)', 'year': '2004', 'artist': 'Raja, Kamalinee Mukherjee', 'musicPath': './assets/music/Yamuna Teeram.mp3'},
+  {'backgroundImage': './assets/images/Gharshanaa _2004_.jpg', 'title': '05 - Ye Chilipi -(www.SenSongsMp3.co)', 'album': 'Gharshanaa (2004)', 'year': '2004', 'artist': 'Gharshanaa', 'musicPath': './assets/music/Ye Chilipi  - SenSongsMp3.co.mp3'},
+  {'backgroundImage': './assets/images/Anand _2004_.jpg', 'title': 'Yedalo Gaanam :: SenSongsMp3.Com', 'album': 'Anand (2004)', 'year': '2004', 'artist': 'Raja, Kamalinee Mukherjee', 'musicPath': './assets/music/Yedalo Gaanam.mp3'},
+  {'backgroundImage': './assets/images/Awaara _2010_.jpg', 'title': 'Yedho Alajadi - SenSongsMp3.Co', 'album': 'Awaara (2010)', 'year': '2010', 'artist': 'Karthi, Tamanna', 'musicPath': './assets/music/Yedho Alajadi - SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Darling_2010_.jpg', 'title': 'YeYo-My3Songs.In', 'album': 'Darling(2010)', 'year': '2016', 'artist': 'Prabhas,Kajal', 'musicPath': './assets/music/YeYo-SenSongsMp3.Co.mp3'},
+  {'backgroundImage': './assets/images/Jalsa_2008_.jpg', 'title': 'You & I-My3Songs.Com', 'album': 'Jalsa(2008)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/You & I-SenSongsMp3.Co.mp3'},
+  
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

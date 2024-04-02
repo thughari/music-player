@@ -37,11 +37,12 @@ def extract_metadata(filename):
 def write_song_data(song_data, output_file):
     """Writes song data in the desired format to the output file."""
 
-    with open(output_file, "a") as f:
+    with open(output_file, "a", encoding="utf-8") as f:  # Specify encoding as UTF-8
         f.write(str(song_data) + ",\n")
 
+
 # Replace with your actual music folder path
-music_folder = r"C:\Users\harib\Documents\music-player-master\assets\music"
+music_folder = r"C:\Users\harib\Desktop\New folder"
 
 # Output text file
 output_file = "song_data.txt"

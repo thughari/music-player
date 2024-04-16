@@ -322,6 +322,13 @@ const musicData = [
 {'backgroundImage': './assets/images/Rowdy Boys _2021_.jpg', 'title': 'Ye Zindagi :: SenSongsMp3.Com', 'album': 'Rowdy Boys (2021)', 'year': '2021', 'artist': 'Ashish, Anupama Parameswaran', 'musicPath': './assets/music/Ye Zindagi.mp3'},
 {'backgroundImage': './assets/images/Kushi _2023_.jpg', 'title': 'Yedhaki Oka Gaayam :: SenSongsMp3.Com', 'album': 'Kushi (2023)', 'year': '2023', 'artist': 'Vijay Devarakonda, Samantha', 'musicPath': './assets/music/Yedhaki Oka Gaayam.mp3'},
 {'backgroundImage': './assets/images/Ori Devuda _2022_.jpg', 'title': 'Yendhi Ra Life Idhi :: SenSongsMp3.Com', 'album': 'Ori Devuda (2022)', 'year': '2022', 'artist': 'Vishwak Sen, Venkatesh, Mithila Palkar', 'musicPath': './assets/music/Yendhi Ra Life Idhi.mp3'},
+{'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '01 - Bham Bham Bole-(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/01 - Bham Bham Bole - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '02 - Ammadu Appachi-(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/02 - Ammadu Appachi - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '03 - Radhe Govinda -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/03 - Radhe Govinda  - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '04 - Ghallu Ghallu -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/04 - Ghallu Ghallu  - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '05 - Dayi Dayi Damma -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/05 - Dayi Dayi Damma  - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '06 - Ayyo Ayyo Ayyayyo -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/06 - Ayyo Ayyo Ayyayyo  - SenSongsMp3.co.mp3'},
+
 
 ];
 

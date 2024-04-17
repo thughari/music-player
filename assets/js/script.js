@@ -329,7 +329,6 @@ const musicData = [
 {'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '05 - Dayi Dayi Damma -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/05 - Dayi Dayi Damma  - SenSongsMp3.co.mp3'},
 {'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '06 - Ayyo Ayyo Ayyayyo -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/06 - Ayyo Ayyo Ayyayyo  - SenSongsMp3.co.mp3'},
 
-
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

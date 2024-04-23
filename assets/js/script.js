@@ -330,7 +330,8 @@ const musicData = [
 {'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '06 - Ayyo Ayyo Ayyayyo -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/06 - Ayyo Ayyo Ayyayyo  - SenSongsMp3.co.mp3'},
 {'backgroundImage': './assets/images/Suzume.jpg', 'title': 'Suzume no Tojimari - Suzume Theme Song', 'album': 'Suzume', 'year': '2023', 'artist': 'Suzume', 'musicPath': './assets/music/Suzume no TojimariSuzumeTheme Song.mp3'},
 {'backgroundImage': './assets/images/Dr.Stone.jpg', 'title': 'Rude-α 『LIFE』- Dr.Stone', 'album': 'Dr.Stone', 'year': '2021', 'artist': 'Dr.Stone', 'musicPath': './assets/music/Rude-α 『LIFE』.mp3'},
-
+{'backgroundImage': './assets/images/33-Max Verstappen.jpg', 'title': '33 Max Verstappen', 'album': 'Max Verstappen', 'year': '2020', 'artist': 'Max Verstappen', 'musicPath': './assets/music/Carte Blanq & Maxx Power - 33 Max Verstappen.mp3'},
+{'backgroundImage': './assets/images/Top Gun Maverick.jpg', 'title': 'I Ain’t Worried', 'album': 'Top Gun Maverick', 'year': '2021', 'artist': 'OneRepublic', 'musicPath': './assets/music/OneRepublic - I Ain’t Worried (From “Top Gun_ Maverick”).mp3'},
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

@@ -329,6 +329,7 @@ const musicData = [
 {'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '05 - Dayi Dayi Damma -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/05 - Dayi Dayi Damma  - SenSongsMp3.co.mp3'},
 {'backgroundImage': './assets/images/Indra _2002_.jpg', 'title': '06 - Ayyo Ayyo Ayyayyo -(www.SenSongsMp3.co)', 'album': 'Indra (2002)', 'year': '2002', 'artist': 'Indra', 'musicPath': './assets/music/06 - Ayyo Ayyo Ayyayyo  - SenSongsMp3.co.mp3'},
 {'backgroundImage': './assets/images/Suzume.jpg', 'title': 'Suzume no Tojimari - Suzume Theme Song', 'album': 'Suzume', 'year': '2023', 'artist': 'Suzume', 'musicPath': './assets/music/Suzume no TojimariSuzumeTheme Song.mp3'},
+{'backgroundImage': './assets/images/Dr.Stone.jpg', 'title': 'Rude-α 『LIFE』- Dr.Stone', 'album': 'Dr.Stone', 'year': '2021', 'artist': 'Dr.Stone', 'musicPath': './assets/music/Rude-α 『LIFE』.mp3'},
 
 ];
 

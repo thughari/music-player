@@ -332,6 +332,7 @@ const musicData = [
 {'backgroundImage': './assets/images/Dr.Stone.jpg', 'title': 'Rude-α 『LIFE』- Dr.Stone', 'album': 'Dr.Stone', 'year': '2021', 'artist': 'Dr.Stone', 'musicPath': './assets/music/Rude-α 『LIFE』.mp3'},
 {'backgroundImage': './assets/images/33-Max Verstappen.jpg', 'title': '33 Max Verstappen', 'album': 'Max Verstappen', 'year': '2020', 'artist': 'Max Verstappen', 'musicPath': './assets/music/Carte Blanq & Maxx Power - 33 Max Verstappen.mp3'},
 {'backgroundImage': './assets/images/Top Gun Maverick.jpg', 'title': 'I Ain’t Worried', 'album': 'Top Gun Maverick', 'year': '2021', 'artist': 'OneRepublic', 'musicPath': './assets/music/OneRepublic - I Ain’t Worried (From “Top Gun_ Maverick”).mp3'},
+{'backgroundImage': './assets/images/Adele.webp', 'title': 'Skyfall', 'album': 'Skyfall', 'year': '2013', 'artist': 'Adele', 'musicPath': './assets/music/Skyfall.mp3'},
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

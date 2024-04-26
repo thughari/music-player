@@ -369,6 +369,13 @@ const musicData = [
 {'backgroundImage': './assets/images/Premam _2016_.jpg', 'title': 'Agarottula-SenSongsMp3.Co', 'album': 'Premam (2016)', 'year': '2016', 'artist': 'Naga Chaitanya, Sruthi Hassan, Madonna Sebastain, Anupama Parameswaran', 'musicPath': './assets/music/5- Agarottula-SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Premam _2016_.jpg', 'title': ' Prema Pusene-SenSongsMp3.Co', 'album': 'Premam (2016)', 'year': '2016', 'artist': 'Naga Chaitanya, Sruthi Hassan, Madonna Sebastain, Anupama Parameswaran', 'musicPath': './assets/music/6- Prema Pusene-SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Premam _2016_.jpg', 'title': 'Ninna Leni-SenSongsMp3.Co', 'album': 'Premam (2016)', 'year': '2016', 'artist': 'Naga Chaitanya, Sruthi Hassan, Madonna Sebastain, Anupama Parameswaran', 'musicPath': './assets/music/7-Ninna Leni-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Shankar Dada MBBS _2017_.jpg', 'title': 'Chaila Chaila-SenSongsMp3.Co', 'album': 'Shankar Dada MBBS (2017)', 'year': '2000', 'artist': 'Chiranjeevi, Sonali Bendre', 'musicPath': './assets/music/Chaila Chaila-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Shankar Dada MBBS _2017_.jpg', 'title': 'Naa Pere Kanchanamaala-SenSongsMp3.Co', 'album': 'Shankar Dada MBBS (2017)', 'year': '2000', 'artist': 'Chiranjeevi, Sonali Bendre', 'musicPath': './assets/music/Naa Pere Kanchanamaala-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Shankar Dada MBBS _2017_.jpg', 'title': 'Pattu Pattu-SenSongsMp3.Co', 'album': 'Shankar Dada MBBS (2017)', 'year': '2000', 'artist': 'Chiranjeevi, Sonali Bendre', 'musicPath': './assets/music/Pattu Pattu-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Shankar Dada MBBS _2017_.jpg', 'title': 'Sande Poddu-SenSongsMp3.Co', 'album': 'Shankar Dada MBBS (2017)', 'year': '2000', 'artist': 'Chiranjeevi, Sonali Bendre', 'musicPath': './assets/music/Sande Poddu-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Shankar Dada MBBS _2017_.jpg', 'title': 'Shankerdada M.B.B.S-SenSongsMp3.Co', 'album': 'Shankar Dada MBBS (2017)', 'year': '2000', 'artist': 'Chiranjeevi, Sonali Bendre', 'musicPath': './assets/music/Shankerdada M.B.B.S-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Shankar Dada MBBS _2017_.jpg', 'title': 'Thellarindoi-SenSongsMp3.Co', 'album': 'Shankar Dada MBBS (2017)', 'year': '2000', 'artist': 'Chiranjeevi, Sonali Bendre', 'musicPath': './assets/music/Thellarindoi-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Shankar Dada MBBS _2017_.jpg', 'title': 'Ye Jilla-SenSongsMp3.Co', 'album': 'Shankar Dada MBBS (2017)', 'year': '2000', 'artist': 'Chiranjeevi, Sonali Bendre', 'musicPath': './assets/music/Ye Jilla-SenSongsMp3.Co.mp3'},
 
 ];
 

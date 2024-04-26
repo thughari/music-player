@@ -356,6 +356,12 @@ const musicData = [
 {'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Pedda Puli :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Pedda Puli - SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Vaaram :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Vaaram - SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Very Very Sad :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Very Very Sad - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Agnyaathavaasi _2018_.jpg', 'title': 'AB Yevaro Nee Baby :: SenSongsMp3.Co', 'album': 'Agnyaathavaasi (2018)', 'year': '2018', 'artist': 'Pawan Kalyan, Keerthy Suresh, Anu Emmanuel', 'musicPath': './assets/music/AB Yevaro Nee Baby - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Agnyaathavaasi _2018_.jpg', 'title': 'Baitikochi Chuste :: SenSongsMp3.Co', 'album': 'Agnyaathavaasi (2018)', 'year': '2018', 'artist': 'Pawan Kalyan, Keerthy Suresh, Anu Emmanuel', 'musicPath': './assets/music/Baitikochi Chuste - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Agnyaathavaasi _2018_.jpg', 'title': 'Dhaga Dhagamaney :: SenSongsMp3.Co', 'album': 'Agnyaathavaasi (2018)', 'year': '2018', 'artist': 'Pawan Kalyan, Keerthy Suresh, Anu Emmanuel', 'musicPath': './assets/music/Dhaga Dhagamaney - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Agnyaathavaasi _2018_.jpg', 'title': 'Gaali Vaaluga :: SenSongsMp3.Co', 'album': 'Agnyaathavaasi (2018)', 'year': '2018', 'artist': 'Pawan Kalyan, Keerthy Suresh, Anu Emmanuel', 'musicPath': './assets/music/Gaali Vaaluga - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Agnyaathavaasi _2018_.jpg', 'title': 'Kodakaa Koteswar Rao :: SenSongsMp3.Co', 'album': 'Agnyaathavaasi (2018)', 'year': '2018', 'artist': 'Pawan Kalyan, Keerthy Suresh, Anu Emmanuel', 'musicPath': './assets/music/Kodakaa Koteswar Rao - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Agnyaathavaasi _2018_.jpg', 'title': 'Swagatham Krishna :: SenSongsMp3.Co', 'album': 'Agnyaathavaasi (2018)', 'year': '2018', 'artist': 'Pawan Kalyan, Keerthy Suresh, Anu Emmanuel', 'musicPath': './assets/music/Swagatham Krishna - SenSongsMp3.Co.mp3'},
 
 ];
 

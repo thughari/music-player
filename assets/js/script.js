@@ -383,6 +383,12 @@ const musicData = [
 {'backgroundImage': './assets/images/Seethamma Vakitlo Sirimalle Chettu_2013_.jpg', 'title': 'Seethamma Vakitlo Sirimalle Chettu-SenSongsMp3.Co', 'album': 'Seethamma Vakitlo Sirimalle Chettu(2013)', 'year': '2014', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Seethamma Vakitlo Sirimalle Chettu-SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Seethamma Vakitlo Sirimalle Chettu_2013_.jpg', 'title': 'Vaana Chinukulu-SenSongsMp3.Co', 'album': 'Seethamma Vakitlo Sirimalle Chettu(2013)', 'year': '2014', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Vaana Chinukulu-SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Seethamma Vakitlo Sirimalle Chettu_2013_.jpg', 'title': 'Yem Cheddaam-SenSongsMp3.Co', 'album': 'Seethamma Vakitlo Sirimalle Chettu(2013)', 'year': '2014', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Yem Cheddaam-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Okkadu _2003_.jpg', 'title': '02 - Nuvvemaya Chesavo - SenSongsMp3.co', 'album': 'Okkadu - (2003)', 'year': '2003', 'artist': 'Mahesh Babu, Bhumika', 'musicPath': './assets/music/02 - Nuvvemaya Chesavo - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Okkadu _2003_.jpg', 'title': '03 - Cheppave Chirugali - SenSongsMp3.co', 'album': 'Okkadu - (2003)', 'year': '2003', 'artist': 'Mahesh Babu, Bhumika', 'musicPath': './assets/music/03 - Cheppave Chirugali - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Okkadu _2003_.jpg', 'title': '05 - Attarintiki - SenSongsMp3.co', 'album': 'Okkadu - (2003)', 'year': '2003', 'artist': 'Mahesh Babu, Bhumika', 'musicPath': './assets/music/05 - Attarintiki - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Okkadu _2003_.jpg', 'title': '06 - Sahasam - SenSongsMp3.co', 'album': 'Okkadu - (2003)', 'year': '2003', 'artist': 'Mahesh Babu, Bhumika', 'musicPath': './assets/music/06 - Sahasam - SenSongsMp3.co.mp3'},
+{'backgroundImage': './assets/images/Okkadu _2003_.jpg', 'title': 'Hare Rama-SenSongsMp3.Co', 'album': 'Okkadu (2003)', 'year': '2003', 'artist': 'Mahesh Babu, Bhumika Chawla', 'musicPath': './assets/music/Hare Rama-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Okkadu _2003_.jpg', 'title': 'Hay Rey Hai-SenSongsMp3.Co', 'album': 'Okkadu (2003)', 'year': '2003', 'artist': 'Mahesh Babu, Bhumika Chawla', 'musicPath': './assets/music/Hay Rey Hai-SenSongsMp3.Co.mp3'},
 
 ];
 

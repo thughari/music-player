@@ -333,6 +333,18 @@ const musicData = [
 {'backgroundImage': './assets/images/33-Max Verstappen.jpg', 'title': '33 Max Verstappen', 'album': 'Max Verstappen', 'year': '2020', 'artist': 'Max Verstappen', 'musicPath': './assets/music/Carte Blanq & Maxx Power - 33 Max Verstappen.mp3'},
 {'backgroundImage': './assets/images/Top Gun Maverick.jpg', 'title': 'I Ain’t Worried', 'album': 'Top Gun Maverick', 'year': '2021', 'artist': 'OneRepublic', 'musicPath': './assets/music/OneRepublic - I Ain’t Worried (From “Top Gun_ Maverick”).mp3'},
 {'backgroundImage': './assets/images/Adele.webp', 'title': 'Skyfall', 'album': 'Skyfall', 'year': '2013', 'artist': 'Adele', 'musicPath': './assets/music/Skyfall.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Allasani Vaari :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Allasani Vaari - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Break The Rules :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Break The Rules - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema_1998_.jpg', 'title': 'Ee Manase Se Se-My3Songs.Com', 'album': 'Tholi Prema(1998)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Ee Manase Se-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema_1998_.jpg', 'title': 'Emi Sodara-My3Songs.Com', 'album': 'Tholi Prema(1998)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Emi Sodara-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema_1998_.jpg', 'title': 'Gagananiki-My3Songs.Com', 'album': 'Tholi Prema(1998)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Gagananiki-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Ninnila :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Ninnila - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema_1998_.jpg', 'title': 'Romance Rythms-My3Songs.Com', 'album': 'Tholi Prema(1998)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Romance Rythms-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Sunona Sunaina :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Sunona Sunaina - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Toliprema :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Toliprema - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Vinnane Vinnane :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Vinnane Vinnane - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Tholi Prema_1998_.jpg', 'title': 'Yemaindo Yemo-My3Songs.Com', 'album': 'Tholi Prema(1998)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Yemaindo Yemo-SenSongsMp3.Co.mp3'},
+
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

@@ -350,6 +350,12 @@ const musicData = [
 {'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Hey Pillagaada', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Sinduri Vishal, Sinov Raj', 'musicPath': './assets/music/Hey Pillagaada.mp3'},
 {'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Oosupodu', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Vedala Hemachandra', 'musicPath': './assets/music/Oosupodu.mp3'},
 {'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Vachinde', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Madhu Priya, Ramki', 'musicPath': './assets/music/Vachinde.mp3'},
+{'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Ardham Leni Navvu :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Ardham Leni Navvu - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Ga Gha Megha :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Ga Gha Megha - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Miami :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Miami - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Pedda Puli :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Pedda Puli - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Vaaram :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Vaaram - SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Chal Mohan Ranga _2018_.jpg', 'title': 'Very Very Sad :: SenSongsMp3.Co', 'album': 'Chal Mohan Ranga (2018)', 'year': '2018', 'artist': 'Nithin, Megha Akash', 'musicPath': './assets/music/Very Very Sad - SenSongsMp3.Co.mp3'},
 
 ];
 

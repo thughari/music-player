@@ -344,6 +344,12 @@ const musicData = [
 {'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Toliprema :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Toliprema - SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Tholi Prema _2018_.jpg', 'title': 'Vinnane Vinnane :: SenSongsMp3.Co', 'album': 'Tholi Prema (2018)', 'year': '2018', 'artist': 'Varun Tej, Raashi Khanna', 'musicPath': './assets/music/Vinnane Vinnane - SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/Tholi Prema_1998_.jpg', 'title': 'Yemaindo Yemo-My3Songs.Com', 'album': 'Tholi Prema(1998)', 'year': '2016', 'artist': 'My3Songs.Com', 'musicPath': './assets/music/Yemaindo Yemo-SenSongsMp3.Co.mp3'},
+{'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Edo Jarugutondi', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Aravind Srinivas, Renuka', 'musicPath': './assets/music/Edo Jarugutondi.mp3'},
+{'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Fidaa', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Vedala Hemachandra, Malavika', 'musicPath': './assets/music/Fidaa.mp3'},
+{'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Hey Mister', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Deepak', 'musicPath': './assets/music/Hey Mister.mp3'},
+{'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Hey Pillagaada', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Sinduri Vishal, Sinov Raj', 'musicPath': './assets/music/Hey Pillagaada.mp3'},
+{'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Oosupodu', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Vedala Hemachandra', 'musicPath': './assets/music/Oosupodu.mp3'},
+{'backgroundImage': './assets/images/Fidaa - _2017_.jpg', 'title': 'Vachinde', 'album': 'Fidaa - (2017)', 'year': '2017', 'artist': 'Madhu Priya, Ramki', 'musicPath': './assets/music/Vachinde.mp3'},
 
 ];
 

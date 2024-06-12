@@ -1,7 +1,6 @@
 'use strict';
 
 
-
 /**
  * all music information
  */

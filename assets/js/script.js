@@ -406,7 +406,14 @@ const musicData = [
 {'backgroundImage': './assets/images/1 Nenokkadine_2013_.jpg', 'title': 'O Sayonara Sayonara-SenSongsMp3.Co', 'album': '1 Nenokkadine(2013)', 'year': '2013', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/O Sayonara Sayonara-SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/1 Nenokkadine_2013_.jpg', 'title': 'Who Are You-SenSongsMp3.Co', 'album': '1 Nenokkadine(2013)', 'year': '2013', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/Who Are You-SenSongsMp3.Co.mp3'},
 {'backgroundImage': './assets/images/1 Nenokkadine_2013_.jpg', 'title': 'You Are My Love-SenSongsMp3.Co', 'album': '1 Nenokkadine(2013)', 'year': '2013', 'artist': 'SenSongsMp3.Co', 'musicPath': './assets/music/You Are My Love-SenSongsMp3.Co.mp3'},
-
+{'backgroundImage': './assets/images/Aravinda Sametha - _2018_.jpg', 'title': 'Anaganaganaga', 'album': 'Aravinda Sametha - (2018)', 'year': '2018', 'artist': 'Armaan Malik', 'musicPath': './assets/music/01 - Anaganaganaga.mp3'},
+{'backgroundImage': './assets/images/Marvel Anthem - _2019_.jpg', 'title': 'Marvel Anthem', 'album': 'Marvel Anthem - (2019)', 'year': '2019', 'artist': 'A.R. Rahman', 'musicPath': './assets/music/01 - Marvel Anthem.mp3'},
+{'backgroundImage': './assets/images/Aravinda Sametha - _2018_.jpg', 'title': '02 - Peniviti', 'album': 'Aravinda Sametha - (2018)', 'year': '2018', 'artist': 'Kaala Bhairava', 'musicPath': './assets/music/02 - Peniviti.mp3'},
+{'backgroundImage': './assets/images/Aravinda Sametha - _2018_.jpg', 'title': 'Yeda Poyindo', 'album': 'Aravinda Sametha - (2018)', 'year': '2018', 'artist': 'Nikitha Srivalli, Kailash Kher, Penchal Das', 'musicPath': './assets/music/03 - Yeda Poyindo.mp3'},
+{'backgroundImage': './assets/images/Aravinda Sametha - _2018_.jpg', 'title': 'Reddy Ikkada Soodu', 'album': 'Aravinda Sametha - (2018)', 'year': '2018', 'artist': 'Daler Mehndi, Anjana Sowmya', 'musicPath': './assets/music/04 - Reddy Ikkada Soodu.mp3'},
+{'backgroundImage': './assets/images/Aravinda Sametha - _2018_.jpg', 'title': 'Reddamma Thalli (Film Version)', 'album': 'Aravinda Sametha - (2018)', 'year': '2018', 'artist': 'Mohana Bhogaraju', 'musicPath': './assets/music/05 - Reddamma Thalli (Film Version).mp3'},
+{'backgroundImage': './assets/images/Devara _2024_.jpg', 'title': 'All Hail The Tiger', 'album': 'Devara (2023)', 'year': '2024', 'artist': 'Anirudh Ravichander, Natalie Di Luccio', 'musicPath': './assets/music/All Hail The Tiger.mp3'},
+{'backgroundImage': './assets/images/Devara _2024_.jpg', 'title': 'Fear', 'album': 'Devara (2024)', 'year': '2024', 'artist': 'Anirudh Ravichander', 'musicPath': './assets/music/Fear.mp3'},
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

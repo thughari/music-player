@@ -9,15 +9,54 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
-        iframe {
-            width: 100%;
-            height: 100vh;
-            border: none;
+        a:link, a:visited {
+            margin: 10px 0;
+            background-color: white;
+            color: black;
+            border: 2px solid green;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover, a:active {
+        background-color: green;
+        color: white;
+        }
+        img{
+            width: 100%; 
+            max-width: 600px; 
+            margin-top: 20px; 
+            padding-bottom: 20px;
+        }
+        h1 {
+            margin-top: 20px;
+            color: burlywood;
+        }
+        body {
+          background-image: url('../Others/1024077.jpg');
+          background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
         }
     </style>
 </head>
 <body>
-    <iframe src="240-core-java-questions-and-answers.pdf" frameborder="0"></iframe>
+    <h1>Resources</h1>
+    <a href="Java.html">Core Java interview questions</a>
+    <a href="angular.html">Angular Interview questions</a>
+    <a href="bootstrap.html">Bootstrap Cheat Sheet</a>
+    <a href="css.html">CSS Cheatsheet</a>
+    <a href="javascript.html">Javascript Cheat Sheet</a>
+
+    <a href="./../google/[Google Interview Prep Guide] SWE.pdf">Google SWE Interview Prep Guide</a>
+
+    <img src="Annotations.png" alt="Annotations">
 </body>
 </html>

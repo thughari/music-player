@@ -414,6 +414,10 @@ const musicData = [
 {'backgroundImage': './assets/images/Aravinda Sametha - _2018_.jpg', 'title': 'Reddamma Thalli (Film Version)', 'album': 'Aravinda Sametha - (2018)', 'year': '2018', 'artist': 'Mohana Bhogaraju', 'musicPath': './assets/music/05 - Reddamma Thalli (Film Version).mp3'},
 {'backgroundImage': './assets/images/Devara _2024_.jpg', 'title': 'All Hail The Tiger', 'album': 'Devara (2023)', 'year': '2024', 'artist': 'Anirudh Ravichander, Natalie Di Luccio', 'musicPath': './assets/music/All Hail The Tiger.mp3'},
 {'backgroundImage': './assets/images/Devara _2024_.jpg', 'title': 'Fear', 'album': 'Devara (2024)', 'year': '2024', 'artist': 'Anirudh Ravichander', 'musicPath': './assets/music/Fear.mp3'},
+{'backgroundImage': './assets/images/The Raja Saab _2025_.jpg', 'title': 'Raje Yuvaraje :: SenSongsMp3.Com', 'album': 'The Raja Saab (2025)', 'year': '2025', 'artist': 'Prabhas, Nidhi Agarwal, Malavika Mohanan', 'musicPath': './assets/music/03 - raje-yuvaraje.mp3'},
+{'backgroundImage': './assets/images/The Raja Saab _2025_.jpg', 'title': 'Rebel Saab :: SenSongsMp3.Com', 'album': 'The Raja Saab (2025)', 'year': '2025', 'artist': 'Prabhas, Nidhi Agarwal, Malavika Mohanan', 'musicPath': './assets/music/03 - rebel-saab.mp3'},
+{'backgroundImage': './assets/images/23 Theme _From _amp_quot_AA23_amp_quot__.jpg', 'title': '23 Theme (From &quot;AA23&quot;)', 'album': '23 Theme (From &amp;quot;AA23&amp;quot;)', 'year': 'Unknown', 'artist': 'Hector Salamanca, Anirudh Ravichander, Heisenberg', 'musicPath': './assets/music/23 Theme (From _AA23_) - NaaSongs.mp3'},
+{'backgroundImage': './assets/images/Full Video_Kashmeeru _ ANIMAL _ Ranbir K_Rashmika _ Sandeep V _ Shreya G_Yazin N _ Bhushan K.jpg', 'title': 'Full Video:Kashmeeru | ANIMAL | Ranbir K,Rashmika | Sandeep V | Shreya G,Yazin N | Bhushan K', 'album': 'Full Video:Kashmeeru | ANIMAL | Ranbir K,Rashmika | Sandeep V | Shreya G,Yazin N | Bhushan K', 'year': '2025', 'artist': 'T-Series Telugu', 'musicPath': './assets/music/Kashmeeru _ ANIMAL _ Ranbir K,Rashmika _ Sandeep V _ Shreya G,Yazin N _ Bhushan K.mp3'},
 ];
 
 const sortedMusicData = musicData.sort((a, b) => {

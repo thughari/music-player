@@ -42,7 +42,7 @@ def write_song_data(song_data, output_file):
 
 
 # Replace with your actual music folder path
-music_folder = r"C:\Users\harib\Desktop\New folder"
+music_folder = r"C:\Users\vinith\Documents\new-music"
 
 # Output text file
 output_file = "song_data.txt"
